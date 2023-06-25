@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Rocketjets'
 theme = 'almeida-cv'
 
-
 defaultContentLanguage = "en"
 enableRobotsTXT = true
 enableEmoji = true
