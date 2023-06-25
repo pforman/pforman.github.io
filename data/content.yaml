@@ -1,0 +1,112 @@
+BasicInfo:
+  FirstName: Paul
+  LastName: Forman
+  Photo: img/avatar.jpg
+  Contacts:
+    #- Icon: fas fa-phone
+    #  Info: +1 208 555 1212
+    - Icon: fas fa-envelope
+      Info: contact@rocketjets.com
+    - Icon: fas fa-globe
+      Info: <a class="contact__link" href="https://rocketjets.com" target="_blank">rocketjets.com</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Meridian, Idaho
+
+Profile: Senior/Staff SRE with a broad background across diverse technologies, multiple public cloud providers, and a variety of industries.  Strong focus on automation, infrastructure, monitoring, and modern distributed systems.  Experienced in mentoring and training other engineers, both inside and outside my teams.  Recent technical projects have centered around Kubernetes adoption and tooling to reduce development cycle time. Seeking a strategic role in a company with interesting challenges and growth opportunities.
+
+
+Experience:
+  - Employer: Yohana
+    Place: Remote
+    Positions:
+      - Title: Infrastructure Engineer
+        Date: July 2021 - Present
+        Details:
+          - Served as an SRE Team Lead in the Infrastructure and Tooling group, focusing on accelerating development workflows.
+          - Developed and maintained internal tools for standardized service architecture and continuous deployment support.
+          - Led efforts to reduce AWS costs at Yohana, achieving a 25% reduction with no change in service levels.
+          - Participated in the development of materials and taught internal courses for Panasonic engineers in SRE techniques, highlighting aspects of the Yohana platform.
+          - Led infrastructure design efforts for Panasonic's next Global IOT platform.
+          - Participated as the SRE representative in Yohana's Architecture Review Board.
+        Badges: ['Python', 'Go', 'Kubernetes', 'Terraform', 'CI/CD', 'AWS', 'GitOps']
+  - Employer: Zymergen (acquired by Ginkgo)
+    Place: Remote
+    Positions:
+      - Title: Staff Software Engineer
+        Date: Oct 2018 - July 2021
+        Details:
+          - Served as a Staff SWE in the Reliability Engineering group, focusing on infrastructure, observability, and cross-team collaboration.
+          - Designed and implemented Zymergen’s internal monitoring and observability, including outreach to other software teams through presentations, documentation, sample code, and liaison work.
+          - Created Kubernetes management processes for Zymergen, bringing proof-of-concept clusters into a managed repeatable process for production systems.
+          - Developed internal GitOps tooling for Kubernetes, combining open-source and internal code for automatic, versioned, tested clusters.
+          - Collaborated with other senior and staff engineers in formal (Architecture Board) and informal settings to facilitate projects and remove roadblocks.
+        Badges: ['Python', 'Go', 'Kubernetes', 'Terraform', 'CI/CD', 'AWS', 'GitOps']
+  - Employer: Driver, Inc (defunct)
+    Place: Remote
+    Positions:
+      - Title: Site Reliability Lead
+        Date: May 2017 - Oct 2018
+        Details:
+          - Served as a Senior SRE in the Infrastructure and Reliability Engineering group, focusing on infrastructure and tooling.  Transitioned to a strategic role as SRE Lead, performing long and short term planning for the SRE team.
+          - Managed technical direction and mentoring for a distributed SRE group across the US and China.
+          - Created Driver’s initial Kubernetes architecture in mainland China, trained Chinese SRE hires on Driver infrastructure and methods.
+          - Led infrastructure-as-code initiative to bring previously ad hoc cloud resource management into Terraform, adding visibility, repeatability, and revision control.
+          - Developed architecture and tooling for individual and team-level environments, allowing independent partial-stack development and testing in a simulated production environment.
+          - Maintained and extended internal deployment and traffic-routing systems.  Replaced our previous nginx pod proxying solution with Envoy, yielding better visibility of request metrics and improved service management.
+          - Revised and improved internal secrets management system for Kubernetes applications using Hashicorp Vault.
+        Badges: ['Python', 'Kubernetes', 'GCP', 'Terraform']
+  - Employer: Bodybuilding.com
+    Place: Boise, Idaho
+    Positions:
+      - Title: Senior/Principal Engineer
+        Date: July 2011 - May 2017
+        Details:
+          - Served as a Senior (later promoted to Principal) Linux System Engineer in the Site Operations group within Bodybuilding.com, a $400M e-commerce and digital content company.
+          - Participated in technical leadership and led system architecture discussions, with a focus on expanding operations from the datacenter to AWS.
+          - Led discovery efforts and proof-of-concept projects to choose service discovery and container scheduling technology for Bodybuilding’s future platform.
+          - Primary operations resource for the first major project at Bodybuilding to launch cloud-native, utilizing Packer and Terraform for immutable images.
+          - Designed the multiple VPC and cross-account IAM system for Bodybuilding public-facing services in AWS, entirely managed in source control and implemented with Terraform.
+          - Managed internal source control systems. Initiated and completed a migration from Subversion to  self-hosted Git, then to Github Enterprise, including significant restructuring of the repositories.
+          - Prepared and taught internal training courses on AWS, Puppet, Terraform, Consul, and other topics.
+          - Mentored junior System Engineers.
+        Badges: ['AWS', 'Terraform']
+
+Education:
+  - Course: BSc in Mathematics and Computer Science
+    Place: University of Nevada, Reno
+    #Date: Sep 2012 - Nov 2017
+    #Details: Specialised in data analysis
+  - Course: BSc in Civil Engineering
+    Place: University of Nevada, Reno
+
+Skills:
+  - Family: Programming
+    Items:
+      - Python
+      - Go
+      - Bash
+  - Family: Infrastructure
+    Items:
+      - Kubernetes
+      - Terraform
+      - Vault
+      - GitOps
+  - Family: Cloud and Providers
+    Items:
+      - AWS
+      - Google Cloud
+      - Confluent
+      - CockroachDB
+      - Okta
+  - Family: Monitoring and Observability
+    Items:
+      - Prometheus
+      - Grafana
+      - DataDog
+
+Interests:
+  - Languages
+  - Travel
+  - 'Board Games'
+  - 'Cube Puzzles'
+  - Art History

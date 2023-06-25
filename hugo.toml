@@ -1,0 +1,30 @@
+baseURL = 'http://rocketjets.com/'
+languageCode = 'en-us'
+title = 'Rocketjets'
+theme = 'almeida-cv'
+
+
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
+#googleAnalytics = ""
+
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#444"
+colorPageBackground = "#ddd"
+colorPrimary = "#0095dd"
+colorSecondary = "#444"
+colorIconPrimary = "#fff"
+colorIconBackground = "#0095dd"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#444"
+colorRightColumnBodyText = "#444"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#2295dd"
+pages = 1
+# Set this param to 'true' to swap the bar positions
+swapColumns = false
