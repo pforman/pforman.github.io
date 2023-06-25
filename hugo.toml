@@ -1,4 +1,4 @@
-baseURL = 'http://rocketjets.com/'
+baseURL = 'http://www.rocketjets.com/'
 languageCode = 'en-us'
 title = 'Rocketjets'
 theme = 'almeida-cv'

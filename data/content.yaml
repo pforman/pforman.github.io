@@ -8,7 +8,7 @@ BasicInfo:
     - Icon: fas fa-envelope
       Info: contact@rocketjets.com
     - Icon: fas fa-globe
-      Info: <a class="contact__link" href="https://rocketjets.com" target="_blank">rocketjets.com</a>
+      Info: <a class="contact__link" href="https://www.rocketjets.com" target="_blank">www.rocketjets.com</a>
     - Icon: fas fa-map-marker-alt
       Info: Meridian, Idaho
 
